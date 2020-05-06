@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/"
+                />
+  </url>
+  
+</urlset>

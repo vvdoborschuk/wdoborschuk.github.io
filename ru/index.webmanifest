@@ -1,7 +1,7 @@
 {
-  "name": "Vladimir V. Doborschuk",
-  "short_name": "Vladimir V. Doborschuk",
-  "lang": "en-us",
+  "name": "Владимир В. Доборщук",
+  "short_name": "Владимир В. Доборщук",
+  "lang": "ru-RU",
   "theme_color": "#2962ff",
   "background_color": "#2962ff",
   "icons": [{
@@ -14,5 +14,5 @@
     "type": "image/png"
      }],
   "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
+  "start_url": "/ru/?utm_source=web_app_manifest"
 }
