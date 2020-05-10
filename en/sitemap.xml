@@ -45,10 +45,6 @@
   </url>
   
   <url>
-    <loc>https://wdoborschuk.github.io/ru/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://wdoborschuk.github.io/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -77,14 +73,6 @@
   </url>
   
   <url>
-    <loc>https://wdoborschuk.github.io/ru/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/talk/</loc>
-  </url>
-  
-  <url>
     <loc>https://wdoborschuk.github.io/talk/</loc>
     <xhtml:link
                 rel="alternate"
@@ -96,10 +84,6 @@
                 hreflang="en"
                 href="https://wdoborschuk.github.io/talk/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/</loc>
   </url>
   
   <url>
