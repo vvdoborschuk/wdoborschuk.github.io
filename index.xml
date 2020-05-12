@@ -12,29 +12,5 @@
       <link>https://wdoborschuk.github.io/</link>
     </image>
     
-    <item>
-      <title></title>
-      <link>https://wdoborschuk.github.io/author/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wdoborschuk.github.io/author/</guid>
-      <description>&lt;p&gt;interests:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Верстка сайтов и разработка веб-интерфейсов&lt;/li&gt;
-&lt;li&gt;Разработка прикладного ПО&lt;/li&gt;
-&lt;li&gt;Информационная безопасность, компьютерные сети&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;education:
-courses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;course: 2 курс, продолжаю обучение
-institution: Российский Университет Дружбы Народов
-year: 2020&lt;/li&gt;
-&lt;li&gt;course: Cambridge English Exam
-institution: Школа английского языка
-year: 2015&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
