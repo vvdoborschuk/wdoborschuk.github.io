@@ -5,12 +5,21 @@
     <link>https://wdoborschuk.github.io/</link>
       <atom:link href="https://wdoborschuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vladimir V. Doborschuk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2020 02:30:14 +0300</lastBuildDate>
     <image>
       <url>https://wdoborschuk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vladimir V. Doborschuk</title>
       <link>https://wdoborschuk.github.io/</link>
     </image>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://wdoborschuk.github.io/post/helloworld/</link>
+      <pubDate>Sat, 16 May 2020 02:30:14 +0300</pubDate>
+      <guid>https://wdoborschuk.github.io/post/helloworld/</guid>
+      <description>&lt;p&gt;Trying myself in posting, so I just like to say: &amp;ldquo;H3llo W0rld&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

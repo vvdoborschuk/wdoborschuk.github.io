@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wdoborschuk.github.io/post/helloworld/</loc>
+    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/post/</loc>
+    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/</loc>
+    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wdoborschuk.github.io/authors/</loc>
   </url>
   
   <url>
     <loc>https://wdoborschuk.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/post/</loc>
   </url>
   
   <url>
@@ -32,10 +43,6 @@
   
   <url>
     <loc>https://wdoborschuk.github.io/author/vladimir-doborschuk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/</loc>
   </url>
   
 </urlset>
