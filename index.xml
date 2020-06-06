@@ -5,7 +5,7 @@
     <link>https://wdoborschuk.github.io/</link>
       <atom:link href="https://wdoborschuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vladimir V. Doborschuk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2020 02:30:14 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wdoborschuk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vladimir V. Doborschuk</title>
@@ -13,11 +13,108 @@
     </image>
     
     <item>
+      <title>Example Talk</title>
+      <link>https://wdoborschuk.github.io/talk/step2-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/talk/step2-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://wdoborschuk.github.io/post/helloworld/</link>
       <pubDate>Sat, 16 May 2020 02:30:14 +0300</pubDate>
       <guid>https://wdoborschuk.github.io/post/helloworld/</guid>
       <description>&lt;p&gt;Trying myself in posting, so I just like to say: &amp;ldquo;H3llo W0rld&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://wdoborschuk.github.io/slides/step2/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/slides/step2/</guid>
+      <description>&lt;h1 id=&#34;модель-конкуренции-двух-фирм&#34;&gt;Модель конкуренции двух фирм&lt;/h1&gt;
+&lt;h1 id=&#34;этап-2&#34;&gt;Этап 2&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Доклад подготовили&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Доборщук Владимир НФИбд-01-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Швец Сергей НФИбд-03-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Гурбангельдиев Мухаммет НФИбд-03-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Герцев Владлен НФИбд-01-18&lt;/em&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;содержание-доклада&#34;&gt;Содержание доклада&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Описание задач&lt;/li&gt;
+&lt;li&gt;Рассмотрение алгоритмов&lt;/li&gt;
+&lt;li&gt;Выбор алгоритма&lt;/li&gt;
+&lt;li&gt;Реализация кода&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;постановка-задачи&#34;&gt;Постановка задачи&lt;/h1&gt;
+&lt;p&gt;Исходя из:&lt;/p&gt;
+&lt;p&gt;$$\begin{cases}
+\frac{dM_1}{d\theta}=M_1-(\frac{b}{c_1}+\sigma)M_1M_2-\frac{a_1}{c_1}{M_1}^2 \newline
+\frac{dM_2}{d\theta}=\frac{c_2}{c_1}M_2-\frac{b}{c_1}M_1M_2-\frac{a_2}{c_1}{M_2}^2
+\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Выбор оптимального алгоритма для решения поставленной ранее проблемы, на основе математической модели.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h3 id=&#34;метод-эйлера-метод-ломаных&#34;&gt;Метод Эйлера (метод ломаных)&lt;/h3&gt;
+&lt;h3 id=&#34;метод-рунге-кутта&#34;&gt;Метод Рунге-Кутта&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-1&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h3 id=&#34;метод-эйлера&#34;&gt;Метод Эйлера&lt;/h3&gt;
+&lt;p&gt;.right-column70&lt;/p&gt;
+&lt;p&gt;$$\begin{array}
+\overline{y}_{j+1}=\overline{y}_j+h\overline{f}(x_j,\overline{y}_j)
+\end{array}$$&lt;/p&gt;
+&lt;p&gt;$$x_{j+1}=hx_j$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-2&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h2 id=&#34;метод-рунге-кутта-2-го-порядка&#34;&gt;Метод Рунге-Кутта 2-го порядка&lt;/h2&gt;
+&lt;p&gt;$\overline{y}_{j+1}=\overline{y}&lt;em&gt;j+\frac{h}{2}\overline{f}(x_j,\overline{y}&lt;em&gt;j)+\frac{h}{2}\overline{f}(x&lt;/em&gt;{j+1},\overline{y}&lt;/em&gt;{j+1})$&lt;/p&gt;
+&lt;p&gt;$x_{j+1}=hx_j$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-3&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h2 id=&#34;метод-рунге-кутта-4-го-порядка&#34;&gt;Метод Рунге-Кутта 4-го порядка&lt;/h2&gt;
+&lt;p&gt;$k_1 = h\overline{f}(x_j,\overline{y}_j)$&lt;/p&gt;
+&lt;p&gt;$k_2 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_1}{2})$&lt;/p&gt;
+&lt;p&gt;$k_3 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_2}{2})$&lt;/p&gt;
+&lt;p&gt;$k_4 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+k_3)$&lt;/p&gt;
+&lt;p&gt;$\overline{y}_{j+1}=\overline{y}_j+\frac{k_1+2k_2+2k_3+k_4}{6}$&lt;/p&gt;
+&lt;p&gt;$x_{j+1}=hx_j$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>https://wdoborschuk.github.io/project/step2/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/project/step2/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

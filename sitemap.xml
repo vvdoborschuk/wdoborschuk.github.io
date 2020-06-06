@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wdoborschuk.github.io/talk/step2-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wdoborschuk.github.io/post/helloworld/</loc>
     <lastmod>2020-05-16T02:30:14+03:00</lastmod>
   </url>
@@ -13,12 +28,43 @@
   </url>
   
   <url>
-    <loc>https://wdoborschuk.github.io/</loc>
-    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+    <loc>https://wdoborschuk.github.io/authors/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wdoborschuk.github.io/authors/</loc>
+    <loc>https://wdoborschuk.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/slides/step2/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/author/vladimir-v.-doborschuk/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/project/step2/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/tag/science-programming/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/tags/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -31,14 +77,6 @@
   
   <url>
     <loc>https://wdoborschuk.github.io/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/tags/</loc>
   </url>
   
   <url>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vladimir V. Doborschuk</title>
+    <link>https://wdoborschuk.github.io/author/vladimir-v.-doborschuk/</link>
+      <atom:link href="https://wdoborschuk.github.io/author/vladimir-v.-doborschuk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vladimir V. Doborschuk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wdoborschuk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Vladimir V. Doborschuk</title>
+      <link>https://wdoborschuk.github.io/author/vladimir-v.-doborschuk/</link>
+    </image>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://wdoborschuk.github.io/slides/step2/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/slides/step2/</guid>
+      <description>&lt;h1 id=&#34;модель-конкуренции-двух-фирм&#34;&gt;Модель конкуренции двух фирм&lt;/h1&gt;
+&lt;h1 id=&#34;этап-2&#34;&gt;Этап 2&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Доклад подготовили&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Доборщук Владимир НФИбд-01-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Швец Сергей НФИбд-03-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Гурбангельдиев Мухаммет НФИбд-03-18&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Герцев Владлен НФИбд-01-18&lt;/em&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;содержание-доклада&#34;&gt;Содержание доклада&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Описание задач&lt;/li&gt;
+&lt;li&gt;Рассмотрение алгоритмов&lt;/li&gt;
+&lt;li&gt;Выбор алгоритма&lt;/li&gt;
+&lt;li&gt;Реализация кода&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;постановка-задачи&#34;&gt;Постановка задачи&lt;/h1&gt;
+&lt;p&gt;Исходя из:&lt;/p&gt;
+&lt;p&gt;$$\begin{cases}
+\frac{dM_1}{d\theta}=M_1-(\frac{b}{c_1}+\sigma)M_1M_2-\frac{a_1}{c_1}{M_1}^2 \newline
+\frac{dM_2}{d\theta}=\frac{c_2}{c_1}M_2-\frac{b}{c_1}M_1M_2-\frac{a_2}{c_1}{M_2}^2
+\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Выбор оптимального алгоритма для решения поставленной ранее проблемы, на основе математической модели.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h3 id=&#34;метод-эйлера-метод-ломаных&#34;&gt;Метод Эйлера (метод ломаных)&lt;/h3&gt;
+&lt;h3 id=&#34;метод-рунге-кутта&#34;&gt;Метод Рунге-Кутта&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-1&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h3 id=&#34;метод-эйлера&#34;&gt;Метод Эйлера&lt;/h3&gt;
+&lt;p&gt;.right-column70&lt;/p&gt;
+&lt;p&gt;$$\begin{array}
+\overline{y}_{j+1}=\overline{y}_j+h\overline{f}(x_j,\overline{y}_j)
+\end{array}$$&lt;/p&gt;
+&lt;p&gt;$$x_{j+1}=hx_j$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-2&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h2 id=&#34;метод-рунге-кутта-2-го-порядка&#34;&gt;Метод Рунге-Кутта 2-го порядка&lt;/h2&gt;
+&lt;p&gt;$\overline{y}_{j+1}=\overline{y}&lt;em&gt;j+\frac{h}{2}\overline{f}(x_j,\overline{y}&lt;em&gt;j)+\frac{h}{2}\overline{f}(x&lt;/em&gt;{j+1},\overline{y}&lt;/em&gt;{j+1})$&lt;/p&gt;
+&lt;p&gt;$x_{j+1}=hx_j$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;рассмотрение-алгоритмов-3&#34;&gt;Рассмотрение алгоритмов&lt;/h2&gt;
+&lt;h2 id=&#34;метод-рунге-кутта-4-го-порядка&#34;&gt;Метод Рунге-Кутта 4-го порядка&lt;/h2&gt;
+&lt;p&gt;$k_1 = h\overline{f}(x_j,\overline{y}_j)$&lt;/p&gt;
+&lt;p&gt;$k_2 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_1}{2})$&lt;/p&gt;
+&lt;p&gt;$k_3 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_2}{2})$&lt;/p&gt;
+&lt;p&gt;$k_4 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+k_3)$&lt;/p&gt;
+&lt;p&gt;$\overline{y}_{j+1}=\overline{y}_j+\frac{k_1+2k_2+2k_3+k_4}{6}$&lt;/p&gt;
+&lt;p&gt;$x_{j+1}=hx_j$&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
