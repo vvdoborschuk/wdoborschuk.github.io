@@ -59,6 +59,16 @@
     
       <h1 id="модель-конкуренции-двух-фирм">Модель конкуренции двух фирм</h1>
 <h1 id="этап-2">Этап 2</h1>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <p><strong>Доклад подготовили</strong></p>
 <ul>
 <li><em>Доборщук Владимир НФИбд-01-18</em></li>
@@ -81,7 +91,6 @@
 <li>Описание задач</li>
 <li>Рассмотрение алгоритмов</li>
 <li>Выбор алгоритма</li>
-<li>Реализация кода</li>
 </ol>
 
     </section>
@@ -93,7 +102,6 @@
     <section>
     
       
-<h1 id="постановка-задачи">Постановка задачи</h1>
 <p>Исходя из:</p>
 <p>$$\begin{cases}
 \frac{dM_1}{d\theta}=M_1-(\frac{b}{c_1}+\sigma)M_1M_2-\frac{a_1}{c_1}{M_1}^2 \newline
@@ -128,9 +136,8 @@
       
 <h2 id="рассмотрение-алгоритмов-1">Рассмотрение алгоритмов</h2>
 <h3 id="метод-эйлера">Метод Эйлера</h3>
-<p>.right-column70</p>
 <p>$$\begin{array}
-\overline{y}_{j+1}=\overline{y}_j+h\overline{f}(x_j,\overline{y}_j)
+\overline{y_{j+1}}=\overline{y_j}+h\overline{f}(x_j,\overline{y_j})
 \end{array}$$</p>
 <p>$$x_{j+1}=hx_j$$</p>
 
@@ -145,7 +152,7 @@
       
 <h2 id="рассмотрение-алгоритмов-2">Рассмотрение алгоритмов</h2>
 <h2 id="метод-рунге-кутта-2-го-порядка">Метод Рунге-Кутта 2-го порядка</h2>
-<p>$\overline{y}_{j+1}=\overline{y}<em>j+\frac{h}{2}\overline{f}(x_j,\overline{y}<em>j)+\frac{h}{2}\overline{f}(x</em>{j+1},\overline{y}</em>{j+1})$</p>
+<p>$\overline{y_{j+1}}=\overline{y_j}+\frac{h}{2}\overline{f}(x_j,\overline{y_j})+\frac{h}{2}\overline{f}(x_{j+1},\overline{y_{j+1})}$</p>
 <p>$x_{j+1}=hx_j$</p>
 
     </section>
@@ -163,6 +170,16 @@
 <p>$k_2 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_1}{2})$</p>
 <p>$k_3 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_2}{2})$</p>
 <p>$k_4 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+k_3)$</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <p>$\overline{y}_{j+1}=\overline{y}_j+\frac{k_1+2k_2+2k_3+k_4}{6}$</p>
 <p>$x_{j+1}=hx_j$</p>
 
