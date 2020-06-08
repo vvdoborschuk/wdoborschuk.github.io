@@ -118,28 +118,27 @@
       <link>https://wdoborschuk.github.io/slides/step3/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://wdoborschuk.github.io/slides/step3/</guid>
-      <description>&lt;section data-markdown&gt;
-                    &lt;textarea data-template&gt;
-                        # Модель конкуренции двух фирм
-                    &lt;/textarea&gt;
-                &lt;/section&gt;
-                &lt;section data-auto-animate&gt;
-                    &lt;h2 data-id=&#34;code-title&#34;&gt;Реализация программного кода&lt;/h2&gt;
-                    &lt;pre data-id=&#34;code-animation&#34;&gt;&lt;code class=&#34;matlab&#34; data-trim data-line-numbers&gt;
-                        function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
-                            dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1) 
-                                    - (b/c1+microStep)*X(1)*X(2);
-                            dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
-&lt;pre&gt;&lt;code&gt;                        dXdt = [dx1; dx2];
-                    end
-                &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-            &amp;lt;/section&amp;gt;
-            &amp;lt;section data-auto-animate&amp;gt;
-                &amp;lt;h2 data-id=&amp;quot;code-title&amp;quot;&amp;gt;Реализация программного кода&amp;lt;/h2&amp;gt;
-                &amp;lt;pre data-id=&amp;quot;code-animation&amp;quot;&amp;gt;&amp;lt;code class=&amp;quot;matlab&amp;quot; data-trim data-line-numbers=&amp;quot;|3-9|11-16|18-25|27-32|34-37&amp;quot;&amp;gt;
-                    clear
-
-                    p_cr = 20;
+      <description>&lt;h1 id=&#34;модель-конкуренции-двух-фирм&#34;&gt;Модель конкуренции двух фирм&lt;/h1&gt;
+&lt;hr&gt;
+&lt;section data-auto-animate&gt;
+    &lt;h2 data-id=&#34;code-title&#34;&gt;Реализация программного кода&lt;/h2&gt;
+        &lt;pre data-id=&#34;code-animation&#34;&gt;
+            &lt;code class=&#34;matlab&#34; data-trim data-line-numbers&gt;
+            function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
+                dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1) 
+                         - (b/c1+microStep)*X(1)*X(2);
+                dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
+&lt;pre&gt;&lt;code&gt;            dXdt = [dx1; dx2];
+        end
+        &amp;lt;/code&amp;gt;
+    &amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate&gt;
+     &lt;h2 data-id=&#34;code-title&#34;&gt;Реализация программного кода&lt;/h2&gt;
+        &lt;pre data-id=&#34;code-animation&#34;&gt;&lt;code class=&#34;matlab&#34; data-trim data-line-numbers=&#34;|3-9|11-16|18-25|27-32|34-37&#34;&gt;
+                        clear
+&lt;pre&gt;&lt;code&gt;                    p_cr = 20;
                     tau1 = 10;
                     p1 = 9;
                     tau2 = 16;
@@ -176,8 +175,8 @@
                     hold off
 
                 &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-            &amp;lt;/section&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;</description>
     </item>
     
     <item>

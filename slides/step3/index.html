@@ -57,28 +57,36 @@
     
     <section>
     
-      <section data-markdown>
-                    <textarea data-template>
-                        # Модель конкуренции двух фирм
-                    </textarea>
-                </section>
-                <section data-auto-animate>
-                    <h2 data-id="code-title">Реализация программного кода</h2>
-                    <pre data-id="code-animation"><code class="matlab" data-trim data-line-numbers>
-                        function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
-                            dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1) 
-                                    - (b/c1+microStep)*X(1)*X(2);
-                            dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
-<pre><code>                        dXdt = [dx1; dx2];
-                    end
-                &lt;/code&gt;&lt;/pre&gt;
-            &lt;/section&gt;
-            &lt;section data-auto-animate&gt;
-                &lt;h2 data-id=&quot;code-title&quot;&gt;Реализация программного кода&lt;/h2&gt;
-                &lt;pre data-id=&quot;code-animation&quot;&gt;&lt;code class=&quot;matlab&quot; data-trim data-line-numbers=&quot;|3-9|11-16|18-25|27-32|34-37&quot;&gt;
-                    clear
+      <h1 id="модель-конкуренции-двух-фирм">Модель конкуренции двух фирм</h1>
 
-                    p_cr = 20;
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<section data-auto-animate>
+    <h2 data-id="code-title">Реализация программного кода</h2>
+        <pre data-id="code-animation">
+            <code class="matlab" data-trim data-line-numbers>
+            function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
+                dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1) 
+                         - (b/c1+microStep)*X(1)*X(2);
+                dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
+<pre><code>            dXdt = [dx1; dx2];
+        end
+        &lt;/code&gt;
+    &lt;/pre&gt;
+</code></pre>
+</section>
+<section data-auto-animate>
+     <h2 data-id="code-title">Реализация программного кода</h2>
+        <pre data-id="code-animation"><code class="matlab" data-trim data-line-numbers="|3-9|11-16|18-25|27-32|34-37">
+                        clear
+<pre><code>                    p_cr = 20;
                     tau1 = 10;
                     p1 = 9;
                     tau2 = 16;
@@ -115,8 +123,8 @@
                     hold off
 
                 &lt;/code&gt;&lt;/pre&gt;
-            &lt;/section&gt;</code></pre>
-
+</code></pre>
+</section>
     </section>
     
 
