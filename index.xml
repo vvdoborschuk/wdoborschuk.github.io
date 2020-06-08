@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>Group Project Step 2</title>
+      <link>https://wdoborschuk.github.io/talk/step3-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/talk/step3-talk/</guid>
+      <description>&lt;p&gt;Look on your project&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://wdoborschuk.github.io/post/helloworld/</link>
       <pubDate>Sat, 16 May 2020 02:30:14 +0300</pubDate>
@@ -105,11 +114,87 @@
     </item>
     
     <item>
+      <title>Slides</title>
+      <link>https://wdoborschuk.github.io/slides/step3/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/slides/step3/</guid>
+      <description>&lt;section data-markdown&gt;
+                    &lt;textarea data-template&gt;
+                        # Модель конкуренции двух фирм
+                    &lt;/textarea&gt;
+                &lt;/section&gt;
+                &lt;section data-auto-animate&gt;
+                    &lt;h2 data-id=&#34;code-title&#34;&gt;Реализация программного кода&lt;/h2&gt;
+                    &lt;pre data-id=&#34;code-animation&#34;&gt;&lt;code class=&#34;matlab&#34; data-trim data-line-numbers&gt;
+                        function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
+                            dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1) 
+                                    - (b/c1+microStep)*X(1)*X(2);
+                            dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
+&lt;pre&gt;&lt;code&gt;                        dXdt = [dx1; dx2];
+                    end
+                &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+            &amp;lt;/section&amp;gt;
+            &amp;lt;section data-auto-animate&amp;gt;
+                &amp;lt;h2 data-id=&amp;quot;code-title&amp;quot;&amp;gt;Реализация программного кода&amp;lt;/h2&amp;gt;
+                &amp;lt;pre data-id=&amp;quot;code-animation&amp;quot;&amp;gt;&amp;lt;code class=&amp;quot;matlab&amp;quot; data-trim data-line-numbers=&amp;quot;|3-9|11-16|18-25|27-32|34-37&amp;quot;&amp;gt;
+                    clear
+
+                    p_cr = 20;
+                    tau1 = 10;
+                    p1 = 9;
+                    tau2 = 16;
+                    p2 = 7;
+                    V = 10;
+                    q = 1;
+
+                    a_1 = p_cr/(tau1*tau1*p1*p1*V*q);
+                    a_2 = p_cr/(tau2*tau2*p2*p2*V*q);
+                    b0 = p_cr/(tau1*tau1*tau2*tau2*p1*p1*p2*p2*V*q);
+                    c_1 = (p_cr-p1)/(tau1*p1);
+                    c_2 = (p_cr-p2)/(tau2*p2);
+                    microStep0 = 0.002;
+
+                    function dXdt = modelcompanies(t,X,a1,a2,b,c1,c2,microStep)
+
+                        dx1 = (c1/c1)*X(1) - (a1/c1)*X(1)*X(1)
+                                - (b/c1+microStep)*X(1)*X(2);
+                        dx2 = (c2/c1)*X(2) - (a2/c1)*X(2)*X(2) - (b/c1)*X(1)*X(2);
+
+                        dXdt = [dx1; dx2];
+                    end
+
+                    x0=[2; 1];
+                    t_interval = [0 30];
+
+                    [t0, X0] = ode45(@(t, X)
+                        modelcompanies(t,X,a_1,a_2,b0,c_1,c_2, microStep0), 
+                        t_interval, x0);
+
+                    plot(t0,X0(:,1), &#39;r&#39;)
+                    hold on
+                    plot(t0,X0(:,2), &#39;b&#39;)
+                    hold off
+
+                &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+            &amp;lt;/section&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Group Project Step 2</title>
       <link>https://wdoborschuk.github.io/project/step2/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://wdoborschuk.github.io/project/step2/</guid>
       <description>&lt;p&gt;Model of two companies rivalry&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Group Project Step 3</title>
+      <link>https://wdoborschuk.github.io/project/step3/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wdoborschuk.github.io/project/step3/</guid>
+      <description>&lt;p&gt;Model of two companies rivalry Step 3&lt;/p&gt;
 </description>
     </item>
     
