@@ -63,6 +63,36 @@
   </url>
   
   <url>
+    <loc>https://wdoborschuk.github.io/ru/post/helloworld/</loc>
+    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/post/helloworld/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/post/helloworld/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/post/</loc>
+    <lastmod>2020-05-16T02:30:14+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/post/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wdoborschuk.github.io/ru/authors/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -223,20 +253,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://wdoborschuk.github.io/ru/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wdoborschuk.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://wdoborschuk.github.io/ru/post/"
                 />
   </url>
   
