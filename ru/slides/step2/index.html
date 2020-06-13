@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+<head>
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  <link rel="manifest" href="/ru/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://wdoborschuk.github.io/ru/slides/step2/">
+
+  <title>Slides | Владимир В. Доборщук</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/black.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+
+  
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="модель-конкуренции-двух-фирм">Модель конкуренции двух фирм</h1>
+<h1 id="этап-2">Этап 2</h1>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><strong>Доклад подготовили</strong></p>
+<ul>
+<li><em>Доборщук Владимир НФИбд-01-18</em></li>
+<li><em>Швец Сергей НФИбд-03-18</em></li>
+<li><em>Гурбангельдиев Мухаммет НФИбд-03-18</em></li>
+<li><em>Герцев Владлен НФИбд-01-18</em>]</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="содержание-доклада">Содержание доклада</h1>
+<ol>
+<li>Описание задач</li>
+<li>Рассмотрение алгоритмов</li>
+<li>Выбор алгоритма</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Исходя из:</p>
+<p>$$\begin{cases}
+\frac{dM_1}{d\theta}=M_1-(\frac{b}{c_1}+\sigma)M_1M_2-\frac{a_1}{c_1}{M_1}^2 \newline
+\frac{dM_2}{d\theta}=\frac{c_2}{c_1}M_2-\frac{b}{c_1}M_1M_2-\frac{a_2}{c_1}{M_2}^2
+\end{cases}$$</p>
+<h3 id="задача">Задача</h3>
+<blockquote>
+<p>Выбор оптимального алгоритма для решения поставленной ранее проблемы, на основе математической модели.</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="рассмотрение-алгоритмов">Рассмотрение алгоритмов</h2>
+<h3 id="метод-эйлера-метод-ломаных">Метод Эйлера (метод ломаных)</h3>
+<h3 id="метод-рунге-кутта">Метод Рунге-Кутта</h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="рассмотрение-алгоритмов-1">Рассмотрение алгоритмов</h2>
+<h3 id="метод-эйлера">Метод Эйлера</h3>
+<p>$$\begin{array}
+\overline{y_{j+1}}=\overline{y_j}+h\overline{f}(x_j,\overline{y_j})
+\end{array}$$</p>
+<p>$$x_{j+1}=hx_j$$</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="рассмотрение-алгоритмов-2">Рассмотрение алгоритмов</h2>
+<h2 id="метод-рунге-кутта-2-го-порядка">Метод Рунге-Кутта 2-го порядка</h2>
+<p>$\overline{y_{j+1}}=\overline{y_j}+\frac{h}{2}\overline{f}(x_j,\overline{y_j})+\frac{h}{2}\overline{f}(x_{j+1},\overline{y_{j+1})}$</p>
+<p>$x_{j+1}=hx_j$</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="рассмотрение-алгоритмов-3">Рассмотрение алгоритмов</h2>
+<h2 id="метод-рунге-кутта-4-го-порядка">Метод Рунге-Кутта 4-го порядка</h2>
+<p>$k_1 = h\overline{f}(x_j,\overline{y}_j)$</p>
+<p>$k_2 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_1}{2})$</p>
+<p>$k_3 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+\frac{k_2}{2})$</p>
+<p>$k_4 = h\overline{f}(x_j+\frac{h}{2},\overline{y}_j+k_3)$</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>$\overline{y}_{j+1}=\overline{y}_j+\frac{k_1+2k_2+2k_3+k_4}{6}$</p>
+<p>$x_{j+1}=hx_j$</p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    window.revealPlugins = { dependencies: [
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
+      
+      { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
+    ]};
+
+    let revealDefaults = { center: true, controls: true, history: true, progress: true, transition: 'slide', mouseWheel: true };
+    let revealOptions = Object.assign({}, revealDefaults, revealPlugins);
+    Reveal.initialize(revealOptions);
+  </script>
+
+</body>
+</html>

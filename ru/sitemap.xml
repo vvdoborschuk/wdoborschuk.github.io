@@ -3,7 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wdoborschuk.github.io/ru/talk/step2-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/talk/step2-talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/talk/step2-talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/talk/step3-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/talk/step3-talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/talk/step3-talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wdoborschuk.github.io/ru/authors/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +74,141 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://wdoborschuk.github.io/ru/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/slides/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/slides/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/slides/step2/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/slides/step2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/slides/step2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/slides/step3/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/slides/step3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/slides/step3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/author/vladimir-v.-doborschuk/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/author/vladimir-v.-doborschuk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/author/vladimir-v.-doborschuk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/project/step2/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/project/step2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/project/step2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/project/step3/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/project/step3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/project/step3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/tag/science-programming/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/tag/science-programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/tag/science-programming/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wdoborschuk.github.io/ru/tags/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wdoborschuk.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://wdoborschuk.github.io/ru/tags/"
                 />
   </url>
   
@@ -69,48 +265,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://wdoborschuk.github.io/ru/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/talk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wdoborschuk.github.io/talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://wdoborschuk.github.io/ru/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wdoborschuk.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://wdoborschuk.github.io/ru/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wdoborschuk.github.io/ru/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wdoborschuk.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://wdoborschuk.github.io/ru/"
                 />
   </url>
   
